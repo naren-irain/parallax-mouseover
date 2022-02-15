@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Mouse Over</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles.css" />
+    <!-- <script src="./src/img/atropos.js"></script> -->
+</head>
+<body class="bg-gradient-to-r from-primary to-primary-dark">
+    <div>
+        <div class="max-w-screen-xl mx-auto px-4 md:px-8 text-lg text-center py-16">
+
+            <h2 class="text-4xl font-bold sm:text-5xl mb-10">Parallax Mouse Over</h2>
+
+            <!-- Example 1 -->
+            <div class="mt-8 flex flex-wrap justify-center">
+                <div class="w-64 m-6">
+                    <div class="atropos game-box atropos-rotate-touch-scroll-y atropos-rotate-touch">
+                        <span class="atropos-scale">
+                            <span class="atropos-rotate">
+                                <span class="atropos-inner">
+                                    <img class="game-box-size" src="./src/img/box-size.svg" alt="box bg" />
+                                    <img class="game-box-bg" data-atropos-offset="-4" src="./src/img/burger-bg.jpg" alt="game cover" />
+                                    <img class="game-box-logo" data-atropos-offset="2.5" src="./src/img/burger-text.png" alt="game logo" />
+                                    <img src="./src/img/box-ribbon.svg" alt="" />
+                                    <img class="game-box-studio" src="./src/img/ps-studios-logo.svg" alt="game studio" />
+                                    <span class="atropos-highlight"></span>
+                                </span>
+                                <span class="game-box-t"></span>
+                                <span class="game-box-r"></span>
+                                <span class="game-box-b"></span>
+                                <span class="game-box-l"></span>
+                                <span class="atropos-shadow"></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <!-- w-64 -->
+
+                <div class="w-64 m-6">
+                    <div class="atropos game-box atropos-rotate-touch-scroll-y atropos-rotate-touch">
+                        <span class="atropos-scale" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms;">
+                            <span class="atropos-rotate" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
+                                <span class="atropos-inner">
+                                    <img class="game-box-size" src="./src/img/box-size.svg" alt="box bg" />
+                                    <img class="game-box-bg" data-atropos-offset="-4" src="./src/img/momo-bg.jpg" alt="game cover" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);" />
+                                    <img class="game-box-logo" data-atropos-offset="2.5" src="./src/img/momo-text.png" alt="game logo" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);" />
+                                    <img src="./src/img/box-ribbon.svg" alt="" /><img class="game-box-studio" src="./src/img/ps-studios-logo.svg" alt="game studio" />
+                                    <span class="atropos-highlight" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms; opacity: 0;"></span>
+                                </span>
+                                <span class="game-box-t"></span><span class="game-box-r"></span><span class="game-box-b"></span><span class="game-box-l"></span>
+                                <span class="atropos-shadow" style="transform: translate3d(0px, 0px, -50px) scale(1); transition-duration: 300ms;"></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="w-64 m-6">
+                    <div class="atropos game-box atropos-rotate-touch-scroll-y">
+                        <span class="atropos-scale" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms;">
+                            <span class="atropos-rotate" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
+                                <span class="atropos-inner">
+                                    <img class="game-box-size" src="./src/img/box-size.svg" alt="box bg" />
+                                    <img class="game-box-bg" data-atropos-offset="-4" src="./src/img/cakes-bg.jpg" alt="game cover" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);" />
+                                    <img class="game-box-logo" data-atropos-offset="2.5" src="./src/img/cakes-text.png" alt="game logo" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);" />
+                                    <img src="./src/img/box-ribbon.svg" alt="" /><img class="game-box-studio" src="./src/img/ps-studios-logo.svg" alt="game studio" />
+                                    <span class="atropos-highlight" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms; opacity: 0;"></span>
+                                </span>
+                                <span class="game-box-t"></span><span class="game-box-r"></span><span class="game-box-b"></span><span class="game-box-l"></span>
+                                <span class="atropos-shadow" style="transform: translate3d(0px, 0px, -50px) scale(1); transition-duration: 300ms;"></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="w-64 m-6">
+                    <div class="atropos game-box atropos-rotate-touch-scroll-y atropos-rotate-touch">
+                        <span class="atropos-scale" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms;">
+                            <span class="atropos-rotate" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
+                                <span class="atropos-inner">
+                                    <img class="game-box-size" src="./src/img/box-size.svg" alt="box bg" />
+                                    <img class="game-box-bg" data-atropos-offset="-4" src="./src/img/drinks-bg.jpg" alt="game cover" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);" />
+                                    <img class="game-box-logo" data-atropos-offset="2.5" src="./src/img/drinks-text.png" alt="game logo" />
+                                    <img src="./src/img/box-ribbon.svg" alt="" />
+                                    <img class="game-box-studio" src="./src/img/ps-studios-logo.svg" alt="game studio" />
+                                    <span class="atropos-highlight" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms; opacity: 0;"></span>
+                                </span>
+                                <span class="game-box-t"></span><span class="game-box-r"></span><span class="game-box-b"></span><span class="game-box-l"></span>
+                                <span class="atropos-shadow" style="transform: translate3d(0px, 0px, -50px) scale(1); transition-duration: 300ms;"></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Example 2 -->
+            <div class="mt-8 flex flex-wrap justify-center">
+                <div class="w-64 m-6">
+                    <div class="atropos movie-box atropos-rotate-touch-scroll-y atropos-rotate-touch">
+                        <span class="atropos-scale">
+                            <span class="atropos-rotate">
+                                <span class="atropos-inner">
+                                    <div class="movie-box-bg" data-atropos-offset="-5">
+                                        <img src="./src/img/rice-rect.jpg" alt="movie bg" />
+                                    </div>
+                                    <span class="movie-box-logo" data-atropos-offset="2.5" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px); opacity: 1">INDIAN</span>
+                                    <a class="view-more" data-atropos-offset="5"><small>VIEW MORE</small></a>
+                                    <span class="atropos-highlight"></span>
+                                </span>
+                                <span class="atropos-shadow"></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="w-64 m-6">
+                    <div class="atropos movie-box atropos-rotate-touch-scroll-y atropos-rotate-touch">
+                        <span class="atropos-scale" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms;">
+                            <span class="atropos-rotate" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
+                                <span class="atropos-inner">
+                                    <div class="movie-box-bg" data-atropos-offset="-5" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);">
+                                        <img src="./src/img/burger-rect.png" alt="movie bg" />
+                                    </div>
+                                    <span class="movie-box-logo pos-2" data-atropos-offset="2" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px); opacity: 1">BURGERS</span>
+                                    <a class="view-more pos-2" data-atropos-offset="5"><small>VIEW MORE</small></a>
+                                    <span class="atropos-highlight"></span>
+                                </span>
+                                <span class="atropos-shadow"></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="w-64 m-6">
+                    <div class="atropos movie-box atropos-rotate-touch-scroll-y atropos-rotate-touch">
+                        <span class="atropos-scale" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms;">
+                            <span class="atropos-rotate" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
+                                <span class="atropos-inner">
+                                    <div class="movie-box-bg" data-atropos-offset="-5" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);">
+                                        <img src="./src/img/fish-rect.jpg" alt="movie bg" />
+                                    </div>
+                                    <span class="movie-box-logo pos-3" data-atropos-offset="2" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px); opacity: 1">CHINESE</span>
+                                    <a class="view-more pos-3" data-atropos-offset="5"><small>VIEW MORE</small></a>
+                                    <span class="atropos-highlight" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms; opacity: 0;"></span>
+                                </span>
+                                <span class="atropos-shadow" style="transform: translate3d(0px, 0px, -50px) scale(1); transition-duration: 300ms;"></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="w-64 m-6">
+                    <div class="atropos movie-box atropos-rotate-touch-scroll-y atropos-rotate-touch">
+                        <span class="atropos-scale" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms;">
+                            <span class="atropos-rotate" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
+                                <span class="atropos-inner">
+                                    <div class="movie-box-bg" data-atropos-offset="-5" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px);">
+                                        <img src="./src/img/juices-rect.jpg" alt="movie bg" />
+                                    </div>
+                                    <span class="movie-box-logo pos-4" data-atropos-offset="2" style="transition-duration: 300ms; transform: translate3d(0px, 0px, 0px); opacity: 1">JUICES</span>
+                                    <a class="view-more pos-4" data-atropos-offset="4"><small>VIEW MORE</small></a>
+                                    <span class="atropos-highlight" style="transform: translate3d(0px, 0px, 0px); transition-duration: 300ms; opacity: 0;"></span>
+                                </span>
+                                <span class="atropos-shadow" style="transform: translate3d(0px, 0px, -50px) scale(1); transition-duration: 300ms;"></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        import Atropos from "./src/atropos.js";
+        NodeList.prototype.forEach = Array.prototype.forEach;
+
+        document.querySelectorAll(".atropos").forEach(function (element) {
+            const atroposEl = new Atropos({
+                el: element,
+                shadowScale: 1.05,
+                alwaysActive: false,
+            });
+        });
+    </script>
+</body>
+</html>
